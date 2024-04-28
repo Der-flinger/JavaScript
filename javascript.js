@@ -36,7 +36,7 @@ console.log(x + y); */
 let surname = "Silverhand";
 console.log(`${name} ${surname}`); */
 
-console.log(13 % 5);
+/* console.log(13 % 5);
 console.log(true + 1);
 console.log(Number(true));
-console.log(String(true));
+console.log(String(true)); */
