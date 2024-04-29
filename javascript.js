@@ -40,3 +40,41 @@ console.log(`${name} ${surname}`); */
 console.log(true + 1);
 console.log(Number(true));
 console.log(String(true)); */
+
+/* const weeks = {
+	1: "Monday",
+	2: "Tuesday",
+	3: "Wednesday",
+	4: "Thursday",
+	5: "Friday",
+	6: "Saturday",
+	7: "Sunday",
+};
+console.log(weeks[2]); */
+
+/* const user = {
+	name: "John",
+	surname: "Silverhand",
+	age: 23,
+};
+console.log(`${user.name} - ${user.surname} - ${user.age}`);
+
+user.patronymic = prompt("Введите отчество");
+ */
+
+/* const arr1 = ["mon", "tu", "we", "th", "fr", "sa", "su"];
+const arr2 = [1, 2, 3, 4, 5, 6, 7];
+const weeks = {};
+if (arr1.length === arr2.length) {
+	for (let i = 0; i < arr1.length; i++) {
+		weeks[arr1[i]] = arr2[i];
+	}
+} else console.log("Не совпадение по размеру массивов");
+console.log(weeks); */
+
+/* const obj = { x: 1, y: 2, z: 3 };
+console.log(obj);
+for (let key in obj) {
+	obj[key] = obj[key] + 4;
+}
+console.log(obj); */
