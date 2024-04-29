@@ -71,7 +71,7 @@ products.forEach((element) => {
 // Задание 4
 // 1. Необходимо вывести в консоль массив продуктов в котором есть хоть одна фотография используя метод filter. Исходные данные - массив products.
 // 2. Необходимо отсортировать массив products используя метод sort по цене, начиная с самой маленькой, заканчивая самой большой ценой, после чего вывести отсортированный массив в консоль.```
-const products = [
+/* const products = [
 	{
 		id: 3,
 		price: 127,
@@ -93,4 +93,17 @@ const products = [
 	},
 ];
 console.log(products.filter((product) => "photos" in product && product.photos.length !== 0));
-console.log(products.sort((product1, product2) => product1.price - product2.price));
+console.log(products.sort((product1, product2) => product1.price - product2.price)); */
+
+// **Задание 5**
+// Дано 2 массива
+// Вам необходимо объединить 2 этих массива, чтобы значения первого массива были ключами, а значения второго массива — значениями.
+const en = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const ru = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
+const weeksEnRu = {};
+if (en.length === ru.length) {
+	for (let i = 0; i < en.length; i++) {
+		weeksEnRu[en[i]] = ru[i];
+	}
+} else console.log("mismatch sizes of arrays");
+console.log(weeksEnRu);
